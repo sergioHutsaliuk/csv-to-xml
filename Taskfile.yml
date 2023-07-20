@@ -1,0 +1,11 @@
+version: 3
+
+tasks:
+  build_mac:
+    cmds:
+      - fyne package -os darwin --release true
+
+  build_windows:
+    cmds:
+      - GOOS="windows" GOARCH="amd64" CGO_ENABLED="1" CC="x86_64-w64-mingw32-gcc" fyne package -os windows --release true
+

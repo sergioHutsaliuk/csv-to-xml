@@ -1,0 +1,8 @@
+Website = "https://www.upwork.com/freelancers/~01bea62f6fad12da97"
+
+[Details]
+  Icon = "icon.png"
+  Name = "CSVtoXML"
+  ID = "com.csvtoxml.app"
+  Version = "0.1.0"
+  Build = 10

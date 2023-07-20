@@ -19,3 +19,8 @@
 
 # Go workspace file
 go.work
+
+# Dev data
+.idea
+dev
+distribution
